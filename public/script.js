@@ -1,5 +1,5 @@
 document.getElementById('year').textContent=new Date().getFullYear();
-const yt='';
+const yt='https://youtube.com/@ramdhariraismritisevasansthan';
 if(yt){document.getElementById('ytLink').href=yt;}else{document.getElementById('ytLink').onclick=e=>{e.preventDefault();alert('YouTube channel link अभी संस्था की ओर से update नहीं किया गया है।');};}
 document.getElementById('joinForm').addEventListener('submit',async(e)=>{
  e.preventDefault(); const msg=document.getElementById('formMsg'); msg.textContent='आवेदन भेजा जा रहा है…';
